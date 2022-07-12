@@ -1,0 +1,33 @@
+name: omega_walls
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  blur: ^3.1.0
+  google_fonts: 3.0.1
+  font_awesome_flutter: ^10.1.0
+  firebase_core: 1.17.1
+  firebase_storage: 10.2.17
+  cloud_firestore: 3.1.17
+  dio: 4.0.6
+  path_provider: 2.0.10
+  gallery_saver: 2.3.2
+  cached_network_image: 3.2.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/images/
+  uses-material-design: true
+
